@@ -1,0 +1,45 @@
+//Suyashi Tiwari
+//24070123115
+#include<iostream>
+using namespace std;
+int main(){
+    int a=50;
+    int *aptr;
+    aptr=&a;
+    cout<<"Integer address before increment:"<<aptr<<endl;
+    aptr++;
+    cout<<"Integer address after increment:"<<aptr<<endl;
+    float b=20.22;
+    float *bptr;
+    bptr=&b;
+    cout<<"Float address before increment:"<<bptr<<endl;
+    bptr++;
+    cout<<"Float address after increment:"<<bptr<<endl;
+    double c=2.45768;
+    double *cptr;
+    cptr=&c;
+    cout<<"Double address before increment:"<<cptr<<endl;
+    cptr++;
+    cout<<"Double address after increment:"<<cptr<<endl;
+    bool d= true;
+    bool *dptr;
+    dptr=&d;
+    cout<<"Boolean address before increment:"<<dptr<<endl;
+    dptr++;
+    cout<<"Boolean address after increment:"<<dptr<<endl;
+    return 0;
+    
+    
+}
+/*Output
+Integer address before increment:0x7ffc3f57637c
+Integer address after increment:0x7ffc3f576380
+Float address before increment:0x7ffc3f576378
+Float address after increment:0x7ffc3f57637c
+Double address before increment:0x7ffc3f576370
+Double address after increment:0x7ffc3f576378
+Boolean address before increment:0x7ffc3f57636f
+Boolean address after increment:0x7ffc3f576370
+*/
+
+=== Code Execution Successful ===
