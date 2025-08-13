@@ -1,0 +1,93 @@
+//Suyashi Tiwari
+//24070123115
+#include<iostream>
+using namespace std;
+int main(){
+    int a=50;
+    int b=20;
+    int *aptr;
+    int *bptr;
+    aptr=&a;
+    bptr=&b;
+    int diff=*aptr-*bptr;
+    int sum = *aptr+*bptr;
+    cout<<"Difference of pointer:"<<diff<<endl;
+    cout<<"Addition of pointer:"<<sum<<endl;
+    return 0;
+}
+/*Output
+Difference of pointer:30
+Addition of pointer:70
+
+
+=== Code Execution Successful ===*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
